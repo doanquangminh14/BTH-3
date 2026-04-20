@@ -1,0 +1,152 @@
+test_a_bang_0 (test_black_box.TestChuVi.test_a_bang_0)
+BVA: a = 0 → không hợp lệ ... ok
+test_b_am (test_black_box.TestChuVi.test_b_am)
+EP: b < 0 → không hợp lệ ... ok
+test_ca_hai_am (test_black_box.TestChuVi.test_ca_hai_am)
+EP: a,b âm → không hợp lệ ... ok
+test_gia_tri_lon (test_black_box.TestChuVi.test_gia_tri_lon)
+BVA: giá trị lớn ... ok
+test_gia_tri_nho_gan_0 (test_black_box.TestChuVi.test_gia_tri_nho_gan_0)
+BVA: giá trị rất nhỏ nhưng > 0 ... ok
+test_hinh_vuong (test_black_box.TestChuVi.test_hinh_vuong)
+EP: a == b (hình vuông) ... ok
+test_kieu_chuoi (test_black_box.TestChuVi.test_kieu_chuoi)
+EP: a là chuỗi → không hợp lệ ... ok
+test_kieu_none (test_black_box.TestChuVi.test_kieu_none)
+EP: None → không hợp lệ ... ok
+test_so_nguyen_duong_binh_thuong (test_black_box.TestChuVi.test_so_nguyen_duong_binh_thuong)
+EP: a,b ∈ số nguyên dương bình thường ... ok
+test_so_thuc_duong (test_black_box.TestChuVi.test_so_thuc_duong)
+EP: a,b ∈ số thực dương ... ok
+test_a_am (test_black_box.TestDienTich.test_a_am) ... ok
+test_a_bang_0 (test_black_box.TestDienTich.test_a_bang_0) ... ok
+test_ca_hai_am (test_black_box.TestDienTich.test_ca_hai_am) ... ok
+test_chuoi (test_black_box.TestDienTich.test_chuoi) ... ok
+test_gia_tri_nho_hon_1 (test_black_box.TestDienTich.test_gia_tri_nho_hon_1)
+BVA: 0 < a,b < 1 ... ok
+test_gia_tri_rat_lon (test_black_box.TestDienTich.test_gia_tri_rat_lon) ... ok
+test_hinh_vuong (test_black_box.TestDienTich.test_hinh_vuong) ... ok
+test_none (test_black_box.TestDienTich.test_none) ... ok
+test_so_nguyen_binh_thuong (test_black_box.TestDienTich.test_so_nguyen_binh_thuong) ... ok
+test_so_thuc (test_black_box.TestDienTich.test_so_thuc) ... ok
+test_0 (test_black_box.TestNguyenTo.test_0)
+BVA: 0 không là số nguyên tố ... ok
+test_100_khong_nguyen_to (test_black_box.TestNguyenTo.test_100_khong_nguyen_to) ... ok
+test_1_khong_nguyen_to (test_black_box.TestNguyenTo.test_1_khong_nguyen_to)
+BVA: 1 không phải số nguyên tố ... ok
+test_2_la_nguyen_to (test_black_box.TestNguyenTo.test_2_la_nguyen_to)
+BVA: 2 là số nguyên tố nhỏ nhất ... ok
+test_3_la_nguyen_to (test_black_box.TestNguyenTo.test_3_la_nguyen_to) ... ok
+test_4_khong_nguyen_to (test_black_box.TestNguyenTo.test_4_khong_nguyen_to)
+EP: số chẵn > 2 → không nguyên tố ... ok
+test_7_la_nguyen_to (test_black_box.TestNguyenTo.test_7_la_nguyen_to) ... ok
+test_97_la_nguyen_to (test_black_box.TestNguyenTo.test_97_la_nguyen_to)
+EP: số nguyên tố lớn ... ok
+test_kieu_chuoi (test_black_box.TestNguyenTo.test_kieu_chuoi) ... ok
+test_kieu_float (test_black_box.TestNguyenTo.test_kieu_float) ... ok
+test_none (test_black_box.TestNguyenTo.test_none) ... ok
+test_so_am (test_black_box.TestNguyenTo.test_so_am)
+EP: số âm → không nguyên tố ... ok
+test_so_lon_hop_so (test_black_box.TestNguyenTo.test_so_lon_hop_so) ... ok
+test_a_bang_0 (test_black_box.TestPhuongTrinhBac2.test_a_bang_0)
+EP: a=0 → không phải bậc 2 ... ok
+test_a_chuoi (test_black_box.TestPhuongTrinhBac2.test_a_chuoi) ... ok
+test_b_c_khong_hop_le (test_black_box.TestPhuongTrinhBac2.test_b_c_khong_hop_le) ... ok
+test_delta_am_vo_nghiem (test_black_box.TestPhuongTrinhBac2.test_delta_am_vo_nghiem)
+EP: Δ < 0 → vô nghiệm ... ok
+test_delta_bang_0_nghiem_kep (test_black_box.TestPhuongTrinhBac2.test_delta_bang_0_nghiem_kep)
+BVA: Δ = 0 → nghiệm kép ... ok
+test_delta_chinh_xac_bang_0 (test_black_box.TestPhuongTrinhBac2.test_delta_chinh_xac_bang_0)
+BVA: b² = 4ac → Δ đúng bằng 0 ... ok
+test_delta_duong_hai_nghiem (test_black_box.TestPhuongTrinhBac2.test_delta_duong_hai_nghiem)
+EP: Δ > 0 → 2 nghiệm phân biệt ... ok
+test_he_so_am (test_black_box.TestPhuongTrinhBac2.test_he_so_am)
+EP: a < 0 → vẫn giải được ... ok
+test_he_so_thuc (test_black_box.TestPhuongTrinhBac2.test_he_so_thuc)
+EP: hệ số là số thực ... ok
+test_none (test_black_box.TestPhuongTrinhBac2.test_none) ... ok
+test_nam_am (test_black_box.TestSoNgayTrongThang.test_nam_am)
+EP: năm âm → không hợp lệ ... ok
+test_nam_bang_0 (test_black_box.TestSoNgayTrongThang.test_nam_bang_0) ... ok
+test_nam_so_thuc (test_black_box.TestSoNgayTrongThang.test_nam_so_thuc) ... ok
+test_thang_0 (test_black_box.TestSoNgayTrongThang.test_thang_0)
+BVA: tháng = 0 → không hợp lệ ... ok
+test_thang_13 (test_black_box.TestSoNgayTrongThang.test_thang_13)
+BVA: tháng = 13 → không hợp lệ ... ok
+test_thang_1_31_ngay (test_black_box.TestSoNgayTrongThang.test_thang_1_31_ngay) ... ok
+test_thang_2_khong_nhuan_chia_100 (test_black_box.TestSoNgayTrongThang.test_thang_2_khong_nhuan_chia_100)
+BVA: năm 1900 chia hết 100 nhưng không chia hết 400 → không nhuận ... ok
+test_thang_2_nam_nhuan_chia_4 (test_black_box.TestSoNgayTrongThang.test_thang_2_nam_nhuan_chia_4)
+EP: tháng 2 năm nhuận (chia hết 4, không chia hết 100) → 29 ... ok
+test_thang_2_nam_nhuan_chia_400 (test_black_box.TestSoNgayTrongThang.test_thang_2_nam_nhuan_chia_400)
+BVA: năm 2000 là năm nhuận (chia hết 400) → 29 ... ok
+test_thang_2_nam_thuong (test_black_box.TestSoNgayTrongThang.test_thang_2_nam_thuong)
+EP: tháng 2 năm thường → 28 ngày ... ok
+test_thang_4_30_ngay (test_black_box.TestSoNgayTrongThang.test_thang_4_30_ngay) ... ok
+test_thang_bien_duoi_1 (test_black_box.TestSoNgayTrongThang.test_thang_bien_duoi_1)
+BVA: tháng = 1 (biên dưới hợp lệ) ... ok
+test_thang_bien_tren_12 (test_black_box.TestSoNgayTrongThang.test_thang_bien_tren_12)
+BVA: tháng = 12 (biên trên hợp lệ) ... ok
+test_thang_chuoi (test_black_box.TestSoNgayTrongThang.test_thang_chuoi) ... ok
+test_giai_thua_0 (test_black_box.TestTongGiaiThua.test_giai_thua_0)
+BVA: 0! = 1 ... ok
+test_giai_thua_1 (test_black_box.TestTongGiaiThua.test_giai_thua_1)
+BVA: 1! = 1 ... ok
+test_giai_thua_5 (test_black_box.TestTongGiaiThua.test_giai_thua_5)
+EP: 5! = 120 ... ok
+test_giai_thua_am (test_black_box.TestTongGiaiThua.test_giai_thua_am)
+EP: n âm → không xác định ... ok
+test_kieu_chuoi (test_black_box.TestTongGiaiThua.test_kieu_chuoi) ... ok
+test_kieu_float (test_black_box.TestTongGiaiThua.test_kieu_float) ... ok
+test_none (test_black_box.TestTongGiaiThua.test_none) ... ok
+test_tong_n1 (test_black_box.TestTongGiaiThua.test_tong_n1)
+BVA: n=1 → S = 1! = 1 ... ok
+test_tong_n2 (test_black_box.TestTongGiaiThua.test_tong_n2)
+EP: n=2 → S = 1+2 = 3 ... ok
+test_tong_n4 (test_black_box.TestTongGiaiThua.test_tong_n4)
+EP: n=4 → S = 1+2+6+24 = 33 ... ok
+test_tong_n5 (test_black_box.TestTongGiaiThua.test_tong_n5)
+EP: n=5 → S = 1+2+6+24+120 = 153 ... ok
+test_tong_n_am (test_black_box.TestTongGiaiThua.test_tong_n_am) ... ok
+test_tong_n_bang_0 (test_black_box.TestTongGiaiThua.test_tong_n_bang_0)
+BVA: n=0 → không hợp lệ cho tổng ... ok
+test_kieu_chuoi (test_black_box.TestTongXenKe.test_kieu_chuoi) ... ok
+test_kieu_float (test_black_box.TestTongXenKe.test_kieu_float) ... ok
+test_n_am (test_black_box.TestTongXenKe.test_n_am) ... ok
+test_n_bang_0 (test_black_box.TestTongXenKe.test_n_bang_0)
+BVA: n = 0 → không hợp lệ ... ok
+test_n_bang_1 (test_black_box.TestTongXenKe.test_n_bang_1)
+BVA: n = 1 (biên dưới hợp lệ) ... ok
+test_n_bang_2 (test_black_box.TestTongXenKe.test_n_bang_2)
+BVA: n = 2 → 1-2 = -1 ... ok
+test_n_bang_5 (test_black_box.TestTongXenKe.test_n_bang_5)
+EP: n lẻ bình thường → 1-2+3-4+5 = 3 ... ok
+test_n_bang_6 (test_black_box.TestTongXenKe.test_n_bang_6)
+EP: n chẵn bình thường → 1-2+3-4+5-6 = -3 ... ok
+test_n_chan_tong_am (test_black_box.TestTongXenKe.test_n_chan_tong_am)
+EP: n chẵn → kết quả âm ... ok
+test_n_le_tong_duong (test_black_box.TestTongXenKe.test_n_le_tong_duong)
+EP: n lẻ → kết quả dương ... ok
+test_none (test_black_box.TestTongXenKe.test_none) ... ok
+test_a_bang_0 (test_black_box.TestUCLN.test_a_bang_0)
+BVA: a = 0 → không hợp lệ ... ok
+test_b_am (test_black_box.TestUCLN.test_b_am) ... ok
+test_ca_hai_am (test_black_box.TestUCLN.test_ca_hai_am) ... ok
+test_kieu_chuoi (test_black_box.TestUCLN.test_kieu_chuoi) ... ok
+test_kieu_float (test_black_box.TestUCLN.test_kieu_float) ... ok
+test_ucln_binh_thuong (test_black_box.TestUCLN.test_ucln_binh_thuong) ... ok
+test_ucln_boi_so (test_black_box.TestUCLN.test_ucln_boi_so)
+EP: a là bội của b → UCLN = b ... ok
+test_ucln_co_so_1 (test_black_box.TestUCLN.test_ucln_co_so_1)
+EP: một trong hai số bằng 1 → UCLN = 1 ... ok
+test_ucln_hai_so_bang_nhau (test_black_box.TestUCLN.test_ucln_hai_so_bang_nhau)
+EP: a == b → UCLN = a ... ok
+test_ucln_nguyen_to_voi_hop_so (test_black_box.TestUCLN.test_ucln_nguyen_to_voi_hop_so)
+EP: a nguyên tố, không chia hết b → UCLN = 1 ... ok
+test_ucln_so_lon (test_black_box.TestUCLN.test_ucln_so_lon)
+BVA: số lớn ... ok
+
+----------------------------------------------------------------------
+Ran 92 tests in 0.034s
+
+OK
